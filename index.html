@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TripMate - Your Ultimate Travel Companion</title>
+        <link rel="stylesheet" href="landingstyle.css">
+    </head>
+
+    <body>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape"></div>
+                <div class="shape"></div>
+                <div class="shape"></div>
+            </div>
+
+            <div class="hero-content">
+                <h1>TripMate</h1><span class="airplane-flying">🛩️</span>
+                <p class="tagline">Where Dreams Take Flight</p>
+                <p class="sub-tagline">AI-Powered Travel Planning | Seamless Booking | Unforgettable Memories</p>
+                <a href="#" class="cta-button" onclick="openModal(); return false;">Begin Your Adventure</a>
+            </div>
+
+            <div class="scroll-indicator"
+                onclick="document.querySelector('.journey-section').scrollIntoView({behavior: 'smooth'})">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- Journey Steps Section -->
+        <section class="journey-section fade-in">
+            <h2 class="section-title">Your Journey in Simple Steps</h2>
+            <p class="section-subtitle">From dream to reality in minutes</p>
+
+            <div class="journey-steps">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Tell Stella Your Dreams</h3>
+                    <p>Chat with our AI travel assistant about your perfect getaway. She understands your preferences
+                        and budget in seconds.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Get Personalized Plans</h3>
+                    <p>Receive curated destinations and itineraries tailored just for you. Compare options and find your
+                        perfect match.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Choose Your Upgrades</h3>
+                    <p>Add premium lounges, local guides, or special experiences to elevate your trip. Customize every
+                        detail to
+                        perfection.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Book Instantly</h3>
+                    <p>Secure your flights, hotels, and experiences with our one-click booking. Fast, safe, and
+                        hassle-free.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <h3>Pre-Trip Support</h3>
+                    <p>Receive your digital tickets, travel guides, and local tips. We prepare you for an amazing
+                        adventure ahead.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <h3>Travel & Create Memories</h3>
+                    <p>Pack your bags and go! We handle everything else. 24/7 support keeps you covered throughout your
+                        journey.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Grid -->
+        <section class="experience-section fade-in">
+            <h2 class="section-title">Experience the Extraordinary ✨</h2>
+            <p class="section-subtitle">Handcrafted adventures that go beyond ordinary travel</p>
+
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800" alt="Adventure">
+                    <div class="experience-content">
+                        <div class="experience-icon">🏔️</div>
+                        <h3>Epic Adventures</h3>
+                        <p>Scale mountains, dive deep seas, and conquer the wild. For thrill-seekers who crave
+                            adrenaline.</p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800" alt="Luxury">
+                    <div class="experience-content">
+                        <div class="experience-icon">👑</div>
+                        <h3>Luxury Escapes</h3>
+                        <p>Indulge in world-class resorts, private jets, and VIP experiences. Travel like royalty.</p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800" alt="Beach">
+                    <div class="experience-content">
+                        <div class="experience-icon">🏖️</div>
+                        <h3>Beach Paradises</h3>
+                        <p>Pristine shores, turquoise waters, and endless sunshine. Find your slice of heaven.</p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?w=800" alt="Culture">
+                    <div class="experience-content">
+                        <div class="experience-icon">🏛️</div>
+                        <h3>Cultural Immersion</h3>
+                        <p>Dive deep into local traditions, cuisine, and history. Experience authentic connections.</p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800" alt="Nature">
+                    <div class="experience-content">
+                        <div class="experience-icon">🌲</div>
+                        <h3>Nature Retreats</h3>
+                        <p>Disconnect from the chaos and reconnect with nature. Peace, serenity, and pure beauty.</p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=800" alt="City">
+                    <div class="experience-content">
+                        <div class="experience-icon">🌃</div>
+                        <h3>Urban Exploration</h3>
+                        <p>Vibrant nightlife, iconic landmarks, and cosmopolitan vibes. Cities that never sleep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        Testimonials
+        <section class="testimonials-section fade-in">
+            <div class="testimonials-bg"></div>
+            <div class="testimonials-container">
+                <h2 class="section-title">Stories from Our Travelers</h2>
+                <p class="section-subtitle">Real experiences, unforgettable journeys</p>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👨</div>
+                        <div class="testimonial-info">
+                            <h4>Abhishek Bhatia</h4>
+                            <span class="location">New York, USA</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Stella helped me plan the perfect honeymoon in just 5 minutes! The AI
+                        recommendations were spot-on, and the booking process was incredibly smooth. We explored
+                        Santorini without a single worry. TripMate made our dream trip a reality!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👩</div>
+                        <div class="testimonial-info">
+                            <h4>Jyoti Singhal</h4>
+                            <span class="location">London, UK</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"As a solo traveler, I was nervous about booking my first international
+                        trip. TripMate's 24/7 support and premium lounge access made me feel safe and pampered
+                        throughout my journey to Tokyo. Absolutely worth every penny!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👨</div>
+                        <div class="testimonial-info">
+                            <h4>Mahendra Kumar </h4>
+                            <span class="location">Mumbai, India</span>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"I've used many travel agencies, but TripMate is on another level. The
+                        AI chatbot understood exactly what I wanted, the prices were unbeatable, and the whole
+                        experience felt personalized. My Swiss Alps adventure was magical!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Counter -->
+        <section class="stats-section fade-in">
+            <h2 class="section-title"
+                style="color: #ede8e8 !important; -webkit-text-fill-color: #fff !important; margin-bottom: 3rem;">
+                Trusted
+                by Thousands
+                Worldwide</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Global Destinations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.9⭐</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Hour Support</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta fade-in">
+            <h2>Ready to Write Your Story?</h2>
+            <p>Join thousands of travelers who've discovered the world with TripMate</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn-large btn-primary" onclick="openModal(); return false;">Ready</a>
+                <a href="homepage.html#contact" class="btn-large btn-secondary">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 TripMate Travel Agency. All rights reserved.</p>
+            <p>Making travel dreams come true since 2015 ✨</p>
+        </footer>
+        <!-- Auth Modal -->
+        <div class="modal-overlay" id="authModal">
+            <div class="auth-modal">
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+
+                <div class="modal-header">
+                    <h2>🛩️ Welcome to TripMate</h2>
+                    <p>Begin your journey to unforgettable adventures</p>
+                </div>
+
+                <!-- Tab Switcher -->
+                <div class="tab-switcher">
+                    <button class="tab-btn active" onclick="switchTab('login')">Login</button>
+                    <button class="tab-btn" onclick="switchTab('signup')">Sign Up</button>
+                </div>
+
+                <div class="form-container">
+                    <!-- Login Form -->
+                    <div class="form-content active" id="loginForm">
+                        <form onsubmit="handleLogin(event)">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" placeholder="Enter your password" required>
+                            </div>
+
+                            <div class="forgot-password">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="rememberMe">
+                                <label for="rememberMe">Remember me for 30 days</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Login to Your Account</button>
+                        </form>
+
+                        <div class="divider"><span>OR</span></div>
+
+                        <div class="social-login">
+                            <button class="social-btn" onclick="socialLogin('google')">
+                                Google
+                            </button>
+                            <button class="social-btn" onclick="socialLogin('facebook')">
+                                Facebook
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Sign Up Form -->
+                    <div class="form-content" id="signupForm">
+                        <form onsubmit="handleSignup(event)">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" placeholder="+1 (555) 000-0000" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Country</label>
+                                <select required>
+                                    <option value="">Select your country</option>
+                                    <option value="US">United States</option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="IN">India</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="AU">Australia</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" placeholder="Create a strong password" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" placeholder="Re-enter your password" required>
+                            </div>
+
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="termsAgree" required>
+                                <label for="termsAgree">I agree to the Terms & Conditions</label>
+                            </div>
+
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="newsletter">
+                                <label for="newsletter">Send me travel deals and offers</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Create My Account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="landingscript.js" defer></script>
+    </body>
+
+</html>
