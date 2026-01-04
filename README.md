@@ -36,8 +36,8 @@ Enhanced interactivity with hover effects, transitions, and JavaScript-driven be
 
 1. Integration with backend services and APIs
 
-2. User authentication and booking history
+2. User authentication and booking history (coming soon..)
 
-3. Payment gateway integration
+3. Payment gateway integration (level above existing one..)
 
 4. Real-time flight and pricing data
