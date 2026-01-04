@@ -1,10 +1,9 @@
-🌍 <u>Tripmate At a Glance
-<br>
+🌍 Tripmate At a Glance
+<br><br>
 
 🌟Tripmate is a responsive frontend-only travel agency website designed to provide an engaging and intuitive interface for booking international travel tickets. The project focuses on delivering a smooth user experience through clean design, interactive elements, and well-structured layouts—simulating the look and feel of a real-world travel booking platform.
 
 🌟Built entirely using HTML, CSS, and JavaScript, Tripmate showcases strong fundamentals of frontend web development and UI/UX design.
-<br>
 <br>
 <br>
 
@@ -30,7 +29,7 @@ Optimized for desktops, tablets, and mobile devices.
 ⚡ Smooth Navigation & Animations
 Enhanced interactivity with hover effects, transitions, and JavaScript-driven behaviors.
 
-<br><br><br>
+<br><br>
 
 🚀 Future Enhancements
 
