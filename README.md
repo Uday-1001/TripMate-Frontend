@@ -29,7 +29,8 @@ Optimized for desktops, tablets, and mobile devices.
 ⚡ Smooth Navigation & Animations
 Enhanced interactivity with hover effects, transitions, and JavaScript-driven behaviors.
 
-<br><br>
+<br>
+<br>
 
 🚀 Future Enhancements
 
